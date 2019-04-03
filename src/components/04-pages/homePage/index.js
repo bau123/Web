@@ -1,6 +1,6 @@
 import React from 'react'
 import Page from '../../03-templates/defaultPage/';
-import Body from './body/index';
+import Body from './content/index';
 
 
 const HomePage = () => {

@@ -1,0 +1,13 @@
+.ImageHolder {
+    display: table-cell;
+    padding-right: 10px;
+}
+
+.displayText {
+    display: table-cell;
+    padding-right: 10px;
+}
+
+.footer {
+    display: table;
+}

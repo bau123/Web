@@ -1,0 +1,23 @@
+.box{
+    display: block;
+    cursor: pointer;
+}
+
+.box :hover {
+    background-color : #52514d;
+}
+
+
+.options {
+    background-color : #292929;
+    position : absolute;
+    width : 120px;
+}
+
+
+.menu {
+    display : inline-block;
+    color : white;
+    margin-right : 40px;
+    margin-left : 40px;
+}

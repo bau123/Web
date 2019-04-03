@@ -3,14 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8",
     "@babel/core": "^7.3.4",
-    "@storybook/react": "^5.0.2",
-    "babel-loader": "^8.0.5",
+    "@fullpage/react-fullpage": "^0.1.13",
+    "@storybook/react": "^5.0.3",
     "classnames": "^2.2.6",
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-css-modules": "^4.7.9",
+    "react-dom": "^16.8.4",
+    "react-scripts": "^2.1.8",
+    "yarn": "^1.13.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -18,7 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "create-component": "node ./scripts/createComponent.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,6 +35,13 @@
   "devDependencies": {
     "@storybook/addon-actions": "^5.0.2",
     "@storybook/addon-links": "^5.0.2",
-    "@storybook/addons": "^5.0.2"
+    "@storybook/addons": "^5.0.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "mkdirp-promise": "5.0.0",
+    "typescript": "^3.3.4000",
+    "react-router": "^5.0.0",
+    "react-router-dom" :"^5.0.0"
   }
 }

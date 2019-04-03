@@ -1,0 +1,11 @@
+.summary {
+    width: 40%;
+    text-align: justify;
+    top: 120px;
+    left: 35%;
+    position: relative;
+}
+
+.block {
+    height : 100%
+}
