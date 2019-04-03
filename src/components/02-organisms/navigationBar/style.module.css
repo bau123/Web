@@ -1,0 +1,54 @@
+.leftSection{
+    float: left;
+    width : 20%;
+    display : table-cell;
+}
+
+.rightSection{
+    float: right;
+    width : 40%;
+    display : table-cell;
+}
+
+.navigationBar {
+    width : 100%;
+    display : table;
+    border-bottom: 1px solid black;
+}
+
+
+.menus {
+
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    width: -moz-fit-content;
+    width: fit-content;
+    top : 15px;
+    position : relative;
+}
+
+.menu {
+    display: table-cell;
+    padding-right: 4.1em;
+}
+    @media only screen and (max-width: 1250px) {
+    .menu {
+        padding-right: 2.5em;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .menu {
+            padding-right: 1em;
+        }
+    }
+
+    @media only screen and (max-width: 860px) {
+        .menu {
+            display: none;
+        }
+    }
+}
+
+
+

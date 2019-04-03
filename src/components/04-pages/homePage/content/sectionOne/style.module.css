@@ -1,0 +1,14 @@
+.sectionBlock-one-third {
+    height : 30%;
+    background-color: #f4f9f4;
+}
+
+.sectionBlock-two-third {
+    height : 60%;
+    background-color: #a7d7c5;
+}
+
+.content {
+    height : 100%
+}
+

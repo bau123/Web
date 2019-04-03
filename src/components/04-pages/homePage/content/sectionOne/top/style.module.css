@@ -1,0 +1,9 @@
+.block {
+    height : 100%;
+    display : table;
+}
+
+.title {
+    top : 120px;
+    display: table-cell;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './style.css';
-import classnames from 'classnames/bind';
+import styles from './style.module.css';
+import classnames from 'classnames';
 import PropTypes from 'prop-types';
 
 
@@ -18,16 +18,16 @@ export const ButtonShape = {
 
 
 const Button = ({...props}) => {
+    console.log(styles);
     const {onClick, children, shape, size, className } = props;
-    let cx = classnames.bind(styles);
-    const classProps =  cx(
-            'button',
-            size,
-            shape,
+    const classStyling =  classnames(
+            styles.button,
+            styles[shape],
+            styles[size],
             className
     );
     return (
-        <button onClick={onClick} className={classProps}>
+        <button onClick={onClick} className={classStyling}>
             {children}
         </button>)
 };
@@ -41,8 +41,10 @@ Button.defaultProps = {
 
 Button.propTypes = {
     size : PropTypes.string,
-
-}
+    shape : PropTypes.string,
+    className : PropTypes.string,
+    children : PropTypes.node,
+};
 
 export default Button;
 

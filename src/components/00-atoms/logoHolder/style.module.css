@@ -1,0 +1,22 @@
+.logoHolder {
+
+}
+
+
+/*
+    Size of the logo
+*/
+.small{
+    height : 40px;
+    width : 40px
+}
+
+.medium {
+    height : 65px;
+    width: 65px;
+}
+
+.large {
+    height : 100px;
+    width: 100px;
+}

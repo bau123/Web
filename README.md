@@ -34,3 +34,8 @@ Runs the storybook. <br>
 Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
 The page will reload if you make edits.<br>
 The storybook will show you how to use components along with their requirements.
+
+
+
+### `webpack issue with storybook`
+There is a problem when running npm start, use yarn instead.

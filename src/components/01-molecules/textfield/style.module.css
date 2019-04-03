@@ -1,0 +1,12 @@
+.textArea {
+    resize : none;
+    display : block;
+    margin-top: 0.4em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+
+.textField {
+    width: fit-content;
+    display : block;
+}
